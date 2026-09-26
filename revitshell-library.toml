@@ -1,0 +1,13 @@
+# Marks this repository as a RevitShell library.
+# RevitShell reads this file on the branch of the channel a user follows.
+name = "RevitShell demo library"
+description = "Sample apps and batches to try RevitShell libraries."
+prefix = "demo"
+
+[channels]
+beta = "main"
+stable = "stable"
+
+[layout]
+apps = "apps"
+batches = "batches"

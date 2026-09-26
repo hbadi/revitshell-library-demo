@@ -1,0 +1,15 @@
+# Batch: the apps below run one after the other, in this order.
+id = "demo.morning-checks"
+version = "1.0.0"
+name = "Morning checks"
+description = "Model summary, then the warnings report."
+icon = "google:wb_sunny:#F9A825"
+author = "hbadi"
+tags = ["qa"]
+stop_on_error = false
+
+[[step]]
+app = "demo.model-summary"
+
+[[step]]
+app = "demo.warnings-report"

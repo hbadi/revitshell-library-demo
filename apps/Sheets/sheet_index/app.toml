@@ -1,0 +1,9 @@
+id = "demo.sheet-index"
+version = "1.0.0"
+name = "Sheet index"
+description = "Prints the sheet list with the parameters named in columns.csv."
+icon = "google:list_alt:#1565C0"
+author = "hbadi"
+run = "revit"
+tags = ["sheets", "report"]
+requires = ["document"]

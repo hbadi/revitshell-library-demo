@@ -1,8 +1,8 @@
 # /// revitshell
 # id = "demo.model-summary"
-# version = "1.0.0"
+# version = "1.1.0"
 # name = "Model summary"
-# description = "Counts walls, doors, windows, floors and sheets in the active model."
+# description = "Counts walls, doors, windows, floors, rooms, levels and sheets in the active model."
 # icon = "google:analytics:#00838F"
 # author = "hbadi"
 # run = "revit"
@@ -19,6 +19,8 @@ CATEGORIES = [
     ("Doors", BuiltInCategory.OST_Doors),
     ("Windows", BuiltInCategory.OST_Windows),
     ("Floors", BuiltInCategory.OST_Floors),
+    ("Rooms", BuiltInCategory.OST_Rooms),
+    ("Levels", BuiltInCategory.OST_Levels),
     ("Sheets", BuiltInCategory.OST_Sheets),
 ]
 

@@ -1,0 +1,13 @@
+id = "3bc4f074-f1f4-4bc8-a503-3b9325f10278"
+name = "Views not on sheets"
+description = "Lists the views placed on no sheet, skipping templates and the view types in skip_types.csv."
+version = "1.0.0"
+author = "hbadi"
+icon = "google:visibility_off:#6A1B9A"
+run = "revit"
+entry = "views_not_on_sheets.py"
+tags = ["views", "cleanup"]
+requires = ["document"]
+
+[[file]]
+path = "skip_types.csv"

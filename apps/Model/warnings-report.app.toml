@@ -1,0 +1,13 @@
+id = "9e37cd98-cf50-4fc3-aaef-dabed85da1ea"
+name = "Warnings report"
+description = "Groups the model warnings by message, most frequent first."
+version = "1.0.0"
+author = "hbadi"
+icon = "google:warning:#F9A825"
+run = "revit"
+entry = "warnings_report.py"
+tags = ["model", "qa", "report"]
+requires = ["document"]
+
+[[file]]
+path = "_report.py"

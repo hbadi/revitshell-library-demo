@@ -9,7 +9,7 @@ tags = ["qa"]
 stop_on_error = false
 
 [[step]]
-app = "demo.model-summary"
+app = "41dec15c-2541-4015-b363-84d525e6f1e2"
 
 [[step]]
-app = "demo.warnings-report"
+app = "9e37cd98-cf50-4fc3-aaef-dabed85da1ea"

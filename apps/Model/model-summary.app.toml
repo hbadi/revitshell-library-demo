@@ -1,0 +1,10 @@
+id = "41dec15c-2541-4015-b363-84d525e6f1e2"
+name = "Model summary"
+description = "Counts walls, doors, windows, floors, rooms, levels and sheets in the active model."
+version = "1.1.0"
+author = "hbadi"
+icon = "google:analytics:#00838F"
+run = "revit"
+entry = "model_summary.py"
+tags = ["model", "report"]
+requires = ["document"]

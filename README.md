@@ -10,13 +10,13 @@ Manager panel › **Library** tab › **Add library…** › `hbadi/revitshell-l
 
 ```
 revitshell-library.toml    marks the repository as a RevitShell library
-apps/                      one .py per app, or a folder with app.toml
+apps/                      each app: a .app.toml manifest and its plain Python files
 batches/                   *.batch.toml, apps chained by id
 ```
 
-Each app declares its identity in a `# /// revitshell` header (`id`, `version`, `name`…).
-Files an app reads next to itself (helper modules, .csv, .xaml) are listed in `files`,
-so RevitShell installs them with the app.
+Each app is described by a manifest, `<name>.app.toml`: its id, version, name, the script
+it runs (`entry`) and the files that script reads (`[[file]]`: helper modules, .csv, .xaml),
+which RevitShell installs with the app. The scripts themselves are plain Python.
 
 ## Channels
 

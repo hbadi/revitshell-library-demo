@@ -1,9 +1,13 @@
-id = "demo.sheet-index"
-version = "1.0.0"
+id = "fbe97a6c-b7a0-4aab-8305-7ab0daa298df"
 name = "Sheet index"
 description = "Prints the sheet list with the parameters named in columns.csv."
-icon = "google:list_alt:#1565C0"
+version = "1.0.0"
 author = "hbadi"
+icon = "google:list_alt:#1565C0"
 run = "revit"
+entry = "__main__.py"
 tags = ["sheets", "report"]
 requires = ["document"]
+
+[[file]]
+path = "columns.csv"

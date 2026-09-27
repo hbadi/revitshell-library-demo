@@ -1,8 +1,8 @@
 # Marks this repository as a RevitShell library.
 # RevitShell reads this file on the branch of the channel a user follows.
+id = "df5bc8fd-6031-4e18-8307-460de9b3ece2"
 name = "RevitShell demo library"
 description = "Sample apps and batches to try RevitShell libraries."
-prefix = "demo"
 
 [channels]
 beta = "main"

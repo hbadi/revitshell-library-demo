@@ -1,15 +1,3 @@
-# /// revitshell
-# id = "demo.views-not-on-sheets"
-# version = "1.0.0"
-# name = "Views not on sheets"
-# description = "Lists the views placed on no sheet, skipping templates and the view types in skip_types.csv."
-# icon = "google:visibility_off:#6A1B9A"
-# author = "hbadi"
-# run = "revit"
-# tags = ["views", "cleanup"]
-# requires = ["document"]
-# files = ["skip_types.csv"]
-# ///
 """Lists the views that are not placed on any sheet."""
 from pathlib import Path
 

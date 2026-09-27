@@ -1,14 +1,3 @@
-# /// revitshell
-# id = "demo.model-summary"
-# version = "1.0.0"
-# name = "Model summary"
-# description = "Counts walls, doors, windows, floors and sheets in the active model."
-# icon = "google:analytics:#00838F"
-# author = "hbadi"
-# run = "revit"
-# tags = ["model", "report"]
-# requires = ["document"]
-# ///
 """Counts the main element categories of the active model."""
 from Autodesk.Revit.DB import BuiltInCategory, FilteredElementCollector
 

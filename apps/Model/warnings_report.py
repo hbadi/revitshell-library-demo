@@ -1,15 +1,3 @@
-# /// revitshell
-# id = "demo.warnings-report"
-# version = "1.0.0"
-# name = "Warnings report"
-# description = "Groups the model warnings by message, most frequent first."
-# icon = "google:warning:#F9A825"
-# author = "hbadi"
-# run = "revit"
-# tags = ["model", "qa", "report"]
-# requires = ["document"]
-# files = ["_report.py"]
-# ///
 """Groups the warnings of the active model by message."""
 from collections import Counter
 

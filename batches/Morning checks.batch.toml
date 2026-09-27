@@ -1,5 +1,5 @@
 # Batch: the apps below run one after the other, in this order.
-id = "demo.morning-checks"
+id = "23bd6765-e086-4144-8e01-83de35e0226e"
 version = "1.0.0"
 name = "Morning checks"
 description = "Model summary, then the warnings report."
@@ -9,7 +9,7 @@ tags = ["qa"]
 stop_on_error = false
 
 [[step]]
-app = "41dec15c-2541-4015-b363-84d525e6f1e2"
+app = "41dec15c-2541-4015-b363-84d525e6f1e2"  # Model summary
 
 [[step]]
-app = "9e37cd98-cf50-4fc3-aaef-dabed85da1ea"
+app = "9e37cd98-cf50-4fc3-aaef-dabed85da1ea"  # Warnings report
